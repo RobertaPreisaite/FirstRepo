@@ -14,7 +14,7 @@ while check > 0:
 
 list_of_paths = []
 
-for image in glob.glob(path + "*"):
+for image in glob.glob(path + "\*"):
     list_of_paths.append(image)
 
 print("_____________________________\n")
