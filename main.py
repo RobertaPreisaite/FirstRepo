@@ -87,7 +87,7 @@ for i in range(number_of_images):
             print('Image named "' + full_image_names[i] 
             + '" differs by ' + str(h_difference) + ' pixels of height.')  
 
-invalid_images = AF.additional_functionality(number_of_images, full_image_names, image)
+invalid_images = AF.additional_functionality(number_of_images, full_image_names, dimensions_from_names)
 
 PD.print_dashes()
 print("SUMMARY\n")
