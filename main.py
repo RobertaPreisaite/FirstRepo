@@ -13,6 +13,7 @@ import additional_functionality as AF
 check = 1
 while check > 0:
     path = input("\nEnter the directory of images: ")
+    path = path + "\\"
     if os.path.isdir(path):
         check -= 1
     else:
