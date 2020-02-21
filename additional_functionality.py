@@ -3,7 +3,7 @@ import webbrowser
 
 VALIDFORMATS = "ad_formats.txt"
 
-def additional_functionality(number_of_images, full_image_names, image):
+def additional_functionality(number_of_images, full_image_names, list_of_sizes):
     check = 1
     while check > 0:
         check_req = input('''\nDo you want to check if every image meets ad format requirements?
@@ -23,7 +23,7 @@ def additional_functionality(number_of_images, full_image_names, image):
             ad_formats.close()
 
             for i in range(number_of_images):
-                if image not in valid_formats:
+                if list_of_sizes[i] not in valid_formats:
                     invalid_images += 1
                     print('Image "' + full_image_names[i] + '" does not met ad requirements.')
         else:
