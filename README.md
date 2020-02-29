@@ -1,7 +1,7 @@
 # Image Dimension Checker
 _Image Dimension Checker_ checks if the dimensions specified in an image name are exact as the widgth and height by pixels of an imaged. It also checks the deviation between dimensions specified in image name and actual image dimensions as well as calculates number of images and formats.
 
-This project was created as a part of learning programming in Tribe of AI Vilnius.
+This project was created as a part of learning in Tribe of AI Vilnius.
 
 ## What for?
 For everyone who works in a creative or digital marketing agency or anyone who wants to check if image dimensions match dimensions specified in image name (for example, if no pixels were accidentally cut while editing).
